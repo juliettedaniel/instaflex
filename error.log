@@ -1,0 +1,6 @@
+pg_ctl: another server might be running; trying to start server anyway
+waiting for server to start....2023-09-28 19:37:35.689 EDT [52869] FATAL:  lock file "postmaster.pid" already exists
+2023-09-28 19:37:35.689 EDT [52869] HINT:  Is another postmaster (PID 52588) running in data directory "/usr/local/var/postgresql@14"?
+ stopped waiting
+pg_ctl: could not start server
+Examine the log output.
